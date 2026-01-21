@@ -68,7 +68,7 @@ export const CTA = () => {
               href="https://apps.apple.com/tr/app/green-steps-walk/id6757185484?l=tr"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.05, y: -4, shadow: "0 25px 50px -12px rgba(0,0,0,0.2)" }}
+              whileHover={{ scale: 1.05, y: -4, boxShadow: "0 25px 50px -12px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.98 }}
               className="flex items-center gap-5 px-10 py-5 bg-gray-950 text-white rounded-[2rem] font-bold transition-all w-full sm:w-auto overflow-hidden group relative shadow-2xl"
             >

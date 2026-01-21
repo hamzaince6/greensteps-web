@@ -140,7 +140,7 @@ export const Hero = () => {
                 href="https://apps.apple.com/tr/app/green-steps-walk/id6757185484?l=tr"
                 target="_blank"
                 rel="noopener noreferrer"
-                whileHover={{ scale: 1.05, y: -4, shadow: "0 30px 60px -12px rgba(16,185,129,0.3)" }}
+                whileHover={{ scale: 1.05, y: -4, boxShadow: "0 30px 60px -12px rgba(16,185,129,0.3)" }}
                 whileTap={{ scale: 0.98 }}
                 className="group relative px-12 py-6 bg-gray-950 text-white rounded-[2.5rem] font-black text-2xl flex items-center justify-center gap-4 overflow-hidden border border-white/10 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)] transition-all duration-300"
               >
